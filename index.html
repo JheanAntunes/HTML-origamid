@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Meu Site</title>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <!-- Relembrando como fazer um comentário no código.-->
+    </header>
+    <main>
+        <section>
+            <h2>Bem-vindo ao meu site!</h2>
+            <p>Este é um exemplo de site simples usando HTML, CSS e JavaScript.</p>
+            <span>Você pode clicar no título acima para ver uma mensagem.</span>
+        </section>
+        section>
+        <h2>Seção de Produtos</h2>
+        <p>Confira nossos produtos abaixo:</p>
+        <div>
+            <a class="botoes-link" href="/produtos/bike.html">Bicicletas</a>
+            <a class="botoes-link" href="/produtos/moutainbike.html">Moutain bike</a>
+        </div>
+    </main>
+    <footer>
+        Conheção mais sobre programação e desenvolvimento web.
+        <ul>
+            <li>
+                <a href="/produtos/bike.html">Bicicletas</a>
+            </li>
+            <li>
+                <a href="/produtos/moutainbike.html">Moutain bike</a>
+            </li>
+
+        </ul>
+        <button id="topo">Voltar ao topo</button>
+    </footer>
+    <script>
+        const message = document.querySelector('h1');
+        message.addEventListener('click', () => {
+            message.textContent = 'Você clicou no título!';
+
+        }
+        )
+    </script>
+
+</body>
+
+</html>
