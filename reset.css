@@ -1,0 +1,62 @@
+/* Box-sizing global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Altura mínima e comportamento suave no corpo */
+html,
+body {
+  min-height: 100svh;
+  scroll-behavior: smooth;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Melhora a quebra de texto em títulos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Imagens e mídias flexíveis */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove estilos de listas em menus/navegação */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Herança de fontes para elementos de formulário */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
