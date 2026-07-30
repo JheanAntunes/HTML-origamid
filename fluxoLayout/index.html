@@ -5,6 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fluxo Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /*Herança: As propriedades dos elementos pai são herdadas por todos os elementos filhos, obs: Os elementos que tem propriedadaes aplicadas pelo browser vai sobrescrever as propriedades herdadas. */
+        }
+
+        div {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid blue;
+            width: 200px;
+        }
+
+        a,
+        span {
+            color: darkgray;
+            /*
+            Por padrão algumas são inline, o display inline não tem as propriedades do box-model, como padding, margin e border, e não respeita a largura e altura definidas. */
+
+        }
+
+        .inline-block {
+            display: inline-block;
+            background-color: lightgreen;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid green;
+            width: 200px;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,6 +46,12 @@
     <div>O texto é escrito de cima para baixo e lido da esquerda para direita</div>
     <a href="#">texto no link 2</a>
     <span>texto no Span 2</span>
+    <p>
+        Eu sou um paragrafo, e por padrão o paragrafo é um elemento block, ou seja, ele ocupa toda a largura do elemento pai, e respeita as propriedades do box-model, como padding, margin e border.
+    <div>eu sou uma DIV</div>
+    <span>eu sou um SPAN</span>
+    <span class="inline-block">Eu sou um span com Inline-block</span>
+    </p>
 </body>
 
 </html>
