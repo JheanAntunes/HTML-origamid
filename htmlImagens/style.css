@@ -1,5 +1,14 @@
 img {
+<<<<<<< HEAD
   /* Imagem: Width max-100% para a imagem não ultrapassar a largura disponivel do elemento pai.*/
   max-width: 100%;
   display: block;
 }
+=======
+  max-width: 100%;
+  display: block;
+}
+
+div {
+}
+>>>>>>> 0afddada6871c05fff8b7893ce8fc61df3e52f97
