@@ -1,0 +1,5 @@
+img {
+  /* Imagem: Width max-100% para a imagem não ultrapassar a largura disponivel do elemento pai.*/
+  max-width: 100%;
+  display: block;
+}
