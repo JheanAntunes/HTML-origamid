@@ -3,29 +3,13 @@ body {
   margin: 20px;
 }
 
-h1 {
-  text-align: center;
-  color: #333;
-}
-
 * {
   margin: 0px;
 }
 
-.item {
-  border: 1px solid #ccc;
-  padding: 12px;
-  display: grid;
-  gap: 14px;
-}
-
-p {
-  color: #666;
-}
-
-.price {
-  font-weight: bold;
-  color: #000;
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .buy {
@@ -35,12 +19,4 @@ p {
   text-decoration: none;
   display: inline-block;
   color: white;
-}
-
-.container {
-  display: grid;
-  /* grid-template-columns: 1fr 1fr 2fr; */
-  grid-template-columns: repeat(3, 200px);
-  justify-content: center;
-  gap: 20px;
 }
