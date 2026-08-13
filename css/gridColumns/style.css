@@ -2,24 +2,16 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
 }
 
 .title {
-  grid-column: 2;
+  grid-column: 1 / -1;
 }
 
-.price {
-  place-self: start end;
-}
-
-.buy {
-  align-self: start;
-  text-align: center;
-}
-
-.description {
-  text-align: right;
+.info {
+  place-self: start;
+  display: grid;
+  place-items: start;
 }
 
 /* Estilos Gerais */
