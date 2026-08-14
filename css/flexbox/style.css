@@ -8,17 +8,29 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 * {
   margin: 0px;
 }
 
-.flex h2 {
+h2 {
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.flex h2 {
   flex: 1;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
 }
