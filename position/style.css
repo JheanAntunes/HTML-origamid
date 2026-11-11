@@ -1,0 +1,27 @@
+h1 {
+  margin: 0px;
+  padding: 10px;
+  background-color: lightblue;
+}
+
+.index1 {
+  position: relative;
+  background-color: greenyellow;
+  z-index: -1;
+  top: 30px;
+}
+
+.index2 {
+  position: absolute;
+  background-color: hotpink;
+  /* z-index: -1; */
+  top: 30px;
+}
+
+/* Relative: O elemento é posicionado em relação ao seu local original. */
+
+/* Absolute: O elemento é posicionado em relação ao seu elemento pai mais próximo. */
+
+/* Fixed: O elemento é posicionado em relação à janela do navegador. */
+
+/* Static: O elemento é posicionado de forma estática, ou seja, não é afetado por propriedades de posição. */
