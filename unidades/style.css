@@ -1,0 +1,28 @@
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+p {
+  background-color: lightblue;
+}
+
+.px {
+  font-size: 24px;
+}
+
+html {
+}
+
+.rem {
+  font-size: 1.5rem; /* 24px */
+  padding: 1rem 2rem; /* 16px */
+}
