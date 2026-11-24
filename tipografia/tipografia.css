@@ -1,0 +1,14 @@
+p {
+  font-size: 2rem; /*tamanho da letra*/
+  font-family: system-ui, sans-serif; /*tipo de fonte*/
+  font-weight: 500; /*peso da fonte*/
+  font-style: normal; /*estilo da fonte, pode ser normal, italic ou oblique*/
+  line-height: 1.2;
+  /* Controla o espaço vertical entre as linhas de texto e define a altura de uma caixa de linha. */
+  text-decoration: none; /*Decoração do text*/
+  text-transform: lowercase; /*Modifica a forma como o texto é exibido*/
+  text-indent: 2rem; /*cria uma identação no início da primeira linha de texto*/
+  text-align: center; /*Posiciona o texto*/
+  /* text-shadow: 10px 10px 0px gray; */
+  letter-spacing: 10px; /*espaçar as letras*/
+}
