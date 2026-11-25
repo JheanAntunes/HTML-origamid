@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bicicleta {
+  background-image: url("img/bicicleta.jpg");
+  height: 600px;
+  background-color: lightgray;
+  background-repeat: no-repeat;
+  background-size: cover; /* contain: a imagem será redimensionada para se ajustar ao elemento pai, mantendo a proporção original */
+  /* cover: a imagem será redimensionada para cobrir todo o elemento pai, podendo cortar partes da imagem */
+  background-position: center;
+  background: lightgray url("img/bicicleta.jpg") no-repeat center center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+}
+
+.pattern {
+  height: 300px;
+  background-color: coral;
+  background-image: url("img/pattern.svg");
+  background-repeat: repeat-y;
+}
+
+.linear {
+  height: 200px;
+  background: linear-gradient(45deg, lightblue, lightgreen);
+}
+
+.radial {
+  height: 500px;
+  background: radial-gradient(circle, #a18cd1, #fbc2eb);
+}
