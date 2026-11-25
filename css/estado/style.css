@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: Arial, sans-serif;
+  background-color: darkmagenta;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-click:hover {
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.btn-click:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 0, 255, 0.5);
+}
+
+.btn-click:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+.btn-click:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.btn-click:visited {
+  color: lightblue;
+}
