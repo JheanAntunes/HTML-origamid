@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 2rem;
+}
+
 a {
   display: inline-block;
   padding: 1rem 2rem;
@@ -13,7 +21,6 @@ a {
   font-family: Arial, sans-serif;
   background-color: darkmagenta;
   border-radius: 0.5rem;
-  margin: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,4 +49,29 @@ a {
 
 .btn-click:visited {
   color: lightblue;
+}
+
+.list-one li:first-child:hover {
+  color: blue;
+}
+
+.list-one li:last-child:hover {
+  color: red;
+}
+
+.list-one li:nth-child(3) {
+  background-color: yellow;
+}
+
+.list-two li:nth-child(even) {
+  color: green;
+}
+
+.list-two li:nth-child(odd) {
+  color: orange;
+}
+
+.list-one li:nth-child(2) {
+  font-weight: bold;
+  background-color: lightgray;
 }
