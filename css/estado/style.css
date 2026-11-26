@@ -75,3 +75,7 @@ a {
   font-weight: bold;
   background-color: lightgray;
 }
+
+.list-one li:not(:nth-child(2)) {
+  color: purple;
+}
