@@ -1,0 +1,51 @@
+h1 {
+  position: relative;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #ccc;
+}
+
+/* span {
+  width: 3rem;
+  height: 0.2rem;
+  background-color: #ccc;
+  display: block;
+} */
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+  margin: 0rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+li::before {
+  content: "";
+  color: purple;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: purple;
+  display: inline-block;
+}
+
+p::first-line {
+  font-weight: bold;
+  color: gray;
+}
+
+p::first-letter {
+  font-size: 2rem;
+  color: purple;
+}
